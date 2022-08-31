@@ -1,0 +1,6 @@
+print('\033[7mDigite um nome completo e mostre separadamente o primeiro e último nome\033[m')
+nome=str(input('Digite o nome completo: ')).strip().title()
+n=nome.split()
+print(n)
+print('Primeiro nome é: \033[1;33m{}\033[m'.format(n[0]))
+print('Último nome é: \033[1;30;42m{}\033[m'.format(n[len(n)-1]))

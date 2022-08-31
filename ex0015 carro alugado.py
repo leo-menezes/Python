@@ -1,0 +1,7 @@
+print('Custo a pagar para o aluguel do carro: R$60.00 a diária e R$0.15 o km rodado')
+d = int(input('Quantos dias passou com o carro? '))
+km = float(input('Quantos km percorreu com o carro? '))
+vt = (d*60) + (km*0.15)
+print('O valor das diárias é de R${:.2f}'.format(d*60))
+print('O valor dos KM é de R${:.2f}'.format(km*0.15))
+print('total a pagar é de R${:.2f}'.format(vt))
